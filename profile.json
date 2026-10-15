@@ -6,10 +6,38 @@
   "email": "farisruknuddin@gmail.com",
   "linkedin": "https://linkedin.com/in/faris-ruknuddin-3656762b9",
   "featured": [
-    {"repo": "case-vault", "title": "CaseVault", "label": "01 / TRUST", "description": "A case-document workspace with encrypted evidence, version history, case-level access, and linked audit records.", "stack": "Python / FastAPI / React / TypeScript", "pipeline": "Document → encrypted evidence → searchable case history"},
-    {"repo": "Omnimate-Shots", "title": "Omnimate Shots", "label": "02 / RETRIEVAL", "description": "Screenshot ingestion, metadata indexing, and an HTTP search API. Built around file metadata and sidecar data.", "stack": "TypeScript / Node.js", "pipeline": "Screenshot → metadata → retrievable context"},
-    {"repo": "project-mrindustries", "title": "Communiti", "label": "03 / VISION", "description": "A virtual try-on proof of concept using pose landmarks and 2D garment overlays, with measurement and recommendation experiments.", "stack": "Python / Flask / MediaPipe / OpenCV", "pipeline": "Photo + garment → pose landmarks → visual preview"},
-    {"repo": "portfolio", "title": "FARIS. Portfolio", "label": "04 / INTERFACE", "description": "My personal portfolio, built with a component-based interface and motion-led project storytelling.", "stack": "Next.js / React / TypeScript / Framer Motion", "pipeline": "Projects → visual stories → conversations"}
+    {
+      "repo": "case-vault",
+      "title": "CaseVault",
+      "label": "01 / TRUST",
+      "description": "Encrypted case documents, version history, access controls, and audit records.",
+      "stack": "Python · FastAPI · React",
+      "pipeline": "Document → encrypted evidence → searchable case history"
+    },
+    {
+      "repo": "Omnimate-Shots",
+      "title": "Omnimate Shots",
+      "label": "02 / RETRIEVAL",
+      "description": "Screenshot ingestion, metadata indexing, and a search API.",
+      "stack": "TypeScript · Node.js",
+      "pipeline": "Screenshot → metadata → retrievable context"
+    },
+    {
+      "repo": "project-mrindustries",
+      "title": "Communiti",
+      "label": "03 / VISION",
+      "description": "Pose-based virtual try-on with 2D garment overlays; a proof of concept.",
+      "stack": "Python · OpenCV · Flask",
+      "pipeline": "Photo + garment → pose landmarks → visual preview"
+    },
+    {
+      "repo": "portfolio",
+      "title": "FARIS. Portfolio",
+      "label": "04 / INTERFACE",
+      "description": "A personal portfolio with a component-based interface and project storytelling.",
+      "stack": "Next.js · TypeScript",
+      "pipeline": "Projects → visual stories → conversations"
+    }
   ],
   "repository_notes": {
     "case-vault": "Case document management; repository description still refers to the earlier ID-SHIELD prototype.",
@@ -20,14 +48,50 @@
     "project-mrindustries": "Pose-based virtual try-on proof of concept."
   },
   "external_projects": [
-    {"name": "Vox AI", "category": "Voice & automation", "description": "Turns recorded calls into structured notes and follow-up tasks."},
-    {"name": "OmniConnect", "category": "Voice & automation", "description": "An AI receptionist workflow for answering calls, qualifying enquiries, and booking appointments."},
-    {"name": "AI Content & Video Production Engine", "category": "Voice & automation", "description": "Connects script generation, voice synthesis, visuals, and video assembly in one content workflow."},
-    {"name": "Leakage Guard", "category": "Security & infrastructure", "description": "Explores anomaly detection for data leakage in network traffic and ML pipelines."},
-    {"name": "Cloud File Storage System", "category": "Security & infrastructure", "description": "A file-storage application combining authentication, role-based access, and AWS S3 storage."},
-    {"name": "Omnimate Health System", "category": "Applied software", "description": "Healthcare workflows for patient scheduling, health records, and practice administration."},
-    {"name": "AI Traffic Signal Optimization", "category": "Applied software", "description": "Uses computer vision to estimate vehicle density and explore adaptive signal timing."},
-    {"name": "TikTok Analysis Engine", "category": "Applied software", "description": "Explores content trends using engagement data, sentiment analysis, and visual reporting."},
-    {"name": "Carbon Emission Calculator", "category": "Applied software", "description": "Estimates a personal carbon footprint from lifestyle inputs in a full-stack application."}
+    {
+      "name": "Vox AI",
+      "category": "Voice & automation",
+      "description": "Turns recorded calls into structured notes and follow-up tasks."
+    },
+    {
+      "name": "OmniConnect",
+      "category": "Voice & automation",
+      "description": "An AI receptionist workflow for answering calls, qualifying enquiries, and booking appointments."
+    },
+    {
+      "name": "AI Content & Video Production Engine",
+      "category": "Voice & automation",
+      "description": "Connects script generation, voice synthesis, visuals, and video assembly in one content workflow."
+    },
+    {
+      "name": "Leakage Guard",
+      "category": "Security & infrastructure",
+      "description": "Explores anomaly detection for data leakage in network traffic and ML pipelines."
+    },
+    {
+      "name": "Cloud File Storage System",
+      "category": "Security & infrastructure",
+      "description": "A file-storage application combining authentication, role-based access, and AWS S3 storage."
+    },
+    {
+      "name": "Omnimate Health System",
+      "category": "Applied software",
+      "description": "Healthcare workflows for patient scheduling, health records, and practice administration."
+    },
+    {
+      "name": "AI Traffic Signal Optimization",
+      "category": "Applied software",
+      "description": "Uses computer vision to estimate vehicle density and explore adaptive signal timing."
+    },
+    {
+      "name": "TikTok Analysis Engine",
+      "category": "Applied software",
+      "description": "Explores content trends using engagement data, sentiment analysis, and visual reporting."
+    },
+    {
+      "name": "Carbon Emission Calculator",
+      "category": "Applied software",
+      "description": "Estimates a personal carbon footprint from lifestyle inputs in a full-stack application."
+    }
   ]
 }
