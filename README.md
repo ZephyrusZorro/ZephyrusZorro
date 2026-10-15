@@ -101,7 +101,7 @@ A wider collection of projects from my portfolio, spanning voice, security, and 
 | [portfolio](https://github.com/ZephyrusZorro/portfolio) | Next.js personal portfolio. | TypeScript |
 | [project](https://github.com/ZephyrusZorro/project) | Small HTML/CSS/JavaScript portfolio scaffold. | HTML |
 | [project-mrindustries](https://github.com/ZephyrusZorro/project-mrindustries) | Pose-based virtual try-on proof of concept. | Python |
-| [ZephyrusZorro](https://github.com/ZephyrusZorro/ZephyrusZorro) | Faris Ruknuddin â€” Systems Lab. Backend engineering, applied AI, and useful software. | — |
+| [ZephyrusZorro](https://github.com/ZephyrusZorro/ZephyrusZorro) | Faris Ruknuddin — Systems Lab. Backend engineering, applied AI, and useful software. | Python |
 
 </details>
 
