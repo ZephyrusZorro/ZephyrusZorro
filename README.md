@@ -66,7 +66,7 @@ Clear APIs. Thoughtful interfaces. AI with a practical purpose.
 
 ### GitHub at a glance
 
-**6 public project repositories** · **9 additional portfolio projects**
+**7 public project repositories** · **9 additional portfolio projects**
 
 Main repository languages: **HTML** · **Python** · **TypeScript**.
 
@@ -76,6 +76,7 @@ Main repository languages: **HTML** · **Python** · **TypeScript**.
 | Repository | Description |
 | :--- | :--- |
 | [case-vault](https://github.com/ZephyrusZorro/case-vault) | Case document management; repository description still refers to the earlier ID-SHIELD prototype. |
+| [lablens](https://github.com/ZephyrusZorro/lablens) | New project. |
 | [Omnimate-Shots](https://github.com/ZephyrusZorro/Omnimate-Shots) | Screenshot metadata ingestion and search API. |
 | [omnimateScanbox](https://github.com/ZephyrusZorro/omnimateScanbox) | Paper-to-PDF repository placeholder; no source files at review time. |
 | [portfolio](https://github.com/ZephyrusZorro/portfolio) | Next.js personal portfolio. |
