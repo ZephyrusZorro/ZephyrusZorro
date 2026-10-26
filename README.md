@@ -66,22 +66,26 @@ Clear APIs. Thoughtful interfaces. AI with a practical purpose.
 
 ### GitHub at a glance
 
-**7 public project repositories** · **9 additional portfolio projects**
+**11 public project repositories** · **9 additional portfolio projects**
 
-Main repository languages: **HTML** · **Python** · **TypeScript**.
+Main repository languages: **HTML** · **PHP** · **Python** · **TypeScript**.
 
 <details>
 <summary>Browse all public repositories</summary>
 
 | Repository | Description |
 | :--- | :--- |
+| [ai-traffic-signal-optimization](https://github.com/ZephyrusZorro/ai-traffic-signal-optimization) | AI-Powered Dynamic Traffic Signal Optimization &amp; Emergency Vehicle Override using OpenCV and Adaptive Queue Density Scheduling |
 | [case-vault](https://github.com/ZephyrusZorro/case-vault) | Case document management; repository description still refers to the earlier ID-SHIELD prototype. |
+| [health-docker](https://github.com/ZephyrusZorro/health-docker) | Hospital Management System stack with Laravel backend, Next.js frontend, and Docker Compose |
 | [lablens](https://github.com/ZephyrusZorro/lablens) | New project. |
+| [market-cortex](https://github.com/ZephyrusZorro/market-cortex) | Local-first, point-in-time market data, analytics, and evidence-grounded research |
 | [Omnimate-Shots](https://github.com/ZephyrusZorro/Omnimate-Shots) | Screenshot metadata ingestion and search API. |
 | [omnimateScanbox](https://github.com/ZephyrusZorro/omnimateScanbox) | Paper-to-PDF repository placeholder; no source files at review time. |
 | [portfolio](https://github.com/ZephyrusZorro/portfolio) | Next.js personal portfolio. |
 | [project](https://github.com/ZephyrusZorro/project) | Small HTML/CSS/JavaScript portfolio scaffold. |
 | [project-mrindustries](https://github.com/ZephyrusZorro/project-mrindustries) | Pose-based virtual try-on proof of concept. |
+| [vox-ai](https://github.com/ZephyrusZorro/vox-ai) | Vox AI - AI Voice Receptionist for Clinics |
 | [ZephyrusZorro](https://github.com/ZephyrusZorro/ZephyrusZorro) | This profile and its automatic README generator. |
 
 </details>
