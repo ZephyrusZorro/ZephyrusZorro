@@ -40,12 +40,17 @@
     }
   ],
   "repository_notes": {
-    "case-vault": "Case document management; repository description still refers to the earlier ID-SHIELD prototype.",
+    "case-vault": "Case document management; encrypted records, access control, and audit logs.",
     "Omnimate-Shots": "Screenshot metadata ingestion and search API.",
-    "omnimateScanbox": "Paper-to-PDF repository placeholder; no source files at review time.",
-    "portfolio": "Next.js personal portfolio.",
+    "omnimateScanbox": "Paper-to-PDF repository placeholder; automated scan lifecycle.",
+    "portfolio": "Next.js personal portfolio with component-based interactive storytelling.",
     "project": "Small HTML/CSS/JavaScript portfolio scaffold.",
-    "project-mrindustries": "Pose-based virtual try-on proof of concept."
+    "project-mrindustries": "Pose-based virtual try-on proof of concept.",
+    "ai-traffic-signal-optimization": "AI-Powered Dynamic Traffic Signal Optimization & Emergency Vehicle Override using OpenCV and Adaptive Queue Density Scheduling.",
+    "market-cortex": "Local-first, point-in-time market data, analytics, and evidence-grounded research.",
+    "health-docker": "Hospital Management System stack with Laravel backend, Next.js frontend, and Docker Compose.",
+    "vox-ai": "Vox AI - AI Voice Receptionist for Clinics.",
+    "ZephyrusZorro": "Systems Lab profile with animated SVG terminal telemetry & automated CI/CD pipeline."
   },
   "external_projects": [
     {

@@ -1,0 +1,9 @@
+# Daily GitHub Actions workflow dependencies (heatmap & telemetry refresh)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Portrait generation dependencies (run locally when updating photo)
+pillow>=10.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+rembg>=2.0.50
