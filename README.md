@@ -37,10 +37,10 @@
 <!-- ================================================================= -->
 <h3><code>faris@systems-lab ~ $ ./connect.sh</code></h3>
 
-<p><b>Backend Developer &nbsp;&middot;&nbsp; Applied AI &nbsp;&middot;&nbsp; SaaS Builder</b></p>
+<p><b>Full-stack software engineer · Applied AI</b></p>
 <p><i>"I turn messy inputs into useful systems."</i></p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FARIS-0d1117?style=for-the-badge&logo=vercel&logoColor=22d3ee)](https://github.com/ZephyrusZorro/portfolio) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Faris_Ruknuddin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/faris-ruknuddin-3656762b9) [![Email](https://img.shields.io/badge/Email-farisruknuddin@gmail.com-1f6feb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:farisruknuddin@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FARIS-0d1117?style=for-the-badge&logo=vercel&logoColor=22d3ee)](https://zephyruszoro09.vercel.app/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Faris_Ruknuddin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/faris-ruknuddin-3656762b9) [![Email](https://img.shields.io/badge/Email-farisruknuddin@gmail.com-1f6feb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:farisruknuddin@gmail.com)
 
 <br>
 </div>
@@ -49,12 +49,17 @@
 
 ### About the lab
 
-Backend engineering, applied AI, and the workflows that connect them. From case documents to screenshots to computer vision, I build around a simple question: what can this input become?
+I build web applications and applied AI tools with a focus on data correctness and auditability. I’m in the final year of a B.E. in Artificial Intelligence and Machine Learning at AITM in Bhatkal.
 
-- Studying **Artificial Intelligence & Machine Learning** at AITM.
-- Building at **Omnimate**, focusing on backend reliability, ingestion pipelines, and automation.
-- Specializing in **applied AI**, **computer vision**, and production workflows.
-- Based in **Bhatkal, India**.
+I’m learning cybersecurity, with an interest in applying it to software engineering.
+
+### Experience
+
+- **Omnimate · Founder & Chief System Analyst (Mar 2026–present).** Led a seven-person team delivering client software and built the Omnimate Shots screenshot search API.
+- **MR Tech Industries · Intern (Aug–Oct 2026).** Developed three retail applications and prototyped pose-based virtual try-on.
+- **Hadi and Taimur AI · AI Intern (Feb–May 2026).** Built data extraction microservices and automated social content scheduling.
+- **MyJobGrow · Cloud Computing Intern (Feb–May 2025).** Deployed and monitored applications on AWS and GCP and supported CI/CD.
+- **Acmegrade · AI/ML Intern (Oct 2024–Jan 2025).** Trained and tuned models for classification and predictive analytics.
 
 ---
 

@@ -118,10 +118,10 @@ def render(config, repos):
         "<!-- ================================================================= -->",
         "<h3><code>faris@systems-lab ~ $ ./connect.sh</code></h3>",
         "",
-        "<p><b>Backend Developer &nbsp;&middot;&nbsp; Applied AI &nbsp;&middot;&nbsp; SaaS Builder</b></p>",
+        f'<p><b>{esc(config["headline"])}</b></p>',
         f'<p><i>"{config["tagline"]}"</i></p>',
         "",
-        f'[![Portfolio](https://img.shields.io/badge/Portfolio-FARIS-0d1117?style=for-the-badge&logo=vercel&logoColor=22d3ee)](https://github.com/{username}/portfolio) '
+        f'[![Portfolio](https://img.shields.io/badge/Portfolio-FARIS-0d1117?style=for-the-badge&logo=vercel&logoColor=22d3ee)]({config["portfolio_url"]}) '
         f'[![LinkedIn](https://img.shields.io/badge/LinkedIn-Faris_Ruknuddin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]({config["linkedin"]}) '
         f'[![Email](https://img.shields.io/badge/Email-farisruknuddin@gmail.com-1f6feb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:{config["email"]})',
         "",
@@ -134,10 +134,11 @@ def render(config, repos):
         "",
         f"{config['intro']}",
         "",
-        "- Studying **Artificial Intelligence & Machine Learning** at AITM.",
-        "- Building at **Omnimate**, focusing on backend reliability, ingestion pipelines, and automation.",
-        "- Specializing in **applied AI**, **computer vision**, and production workflows.",
-        "- Based in **Bhatkal, India**.",
+        config["security_focus"],
+        "",
+        "### Experience",
+        "",
+        *(f"- {role}" for role in config["experience"]),
         "",
         "---",
         "",
