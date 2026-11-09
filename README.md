@@ -117,7 +117,7 @@ Understand the problem  ⟶  Design the workflow  ⟶  Build  ⟶  Test  ⟶  Re
 
 ### 📦 Systems Registry at a Glance
 
-**11 public repositories** · **9 portfolio production systems**
+**15 public repositories** · **9 portfolio production systems**
 
 Active codebase languages: `HTML` · `PHP` · `Python` · `TypeScript`.
 
@@ -129,13 +129,17 @@ Active codebase languages: `HTML` · `PHP` · `Python` · `TypeScript`.
 | [ai-traffic-signal-optimization](https://github.com/ZephyrusZorro/ai-traffic-signal-optimization) | AI-Powered Dynamic Traffic Signal Optimization &amp; Emergency Vehicle Override using OpenCV and Adaptive Queue Density Scheduling. | `Python` |
 | [case-vault](https://github.com/ZephyrusZorro/case-vault) | Case document management; encrypted records, access control, and audit logs. | `Python` |
 | [health-docker](https://github.com/ZephyrusZorro/health-docker) | Hospital Management System stack with Laravel backend, Next.js frontend, and Docker Compose. | `PHP` |
+| [kuber-datacore](https://github.com/ZephyrusZorro/kuber-datacore) | Kuber Data Core (कुबेर) — Autonomous Distributed Web Intelligence, Financial Knowledge Graph &amp; Market Cortex Pipeline | `Python` |
 | [lablens](https://github.com/ZephyrusZorro/lablens) | Active project. | `Python` |
 | [market-cortex](https://github.com/ZephyrusZorro/market-cortex) | Local-first, point-in-time market data, analytics, and evidence-grounded research. | `Python` |
+| [mendroom](https://github.com/ZephyrusZorro/mendroom) | A local-first repair café workbench: skill-aware queues, volunteer matching, repair records, and portable backups. | `TypeScript` |
 | [Omnimate-Shots](https://github.com/ZephyrusZorro/Omnimate-Shots) | Screenshot metadata ingestion and search API. | `TypeScript` |
 | [omnimateScanbox](https://github.com/ZephyrusZorro/omnimateScanbox) | Paper-to-PDF repository placeholder; automated scan lifecycle. | `Mixed` |
-| [portfolio](https://github.com/ZephyrusZorro/portfolio) | Next.js personal portfolio with component-based interactive storytelling. | `TypeScript` |
 | [project](https://github.com/ZephyrusZorro/project) | Small HTML/CSS/JavaScript portfolio scaffold. | `HTML` |
 | [project-mrindustries](https://github.com/ZephyrusZorro/project-mrindustries) | Pose-based virtual try-on proof of concept. | `Python` |
+| [shelfday](https://github.com/ZephyrusZorro/shelfday) | A daily kitchen workbench: batch expiry, ingredient-aware prep, sales and waste reconciliation, and portable backups. | `TypeScript` |
+| [tark-ai](https://github.com/ZephyrusZorro/tark-ai) | Local-first intelligent code auditor, AST semantic analyzer and Socratic tutor. | `Python` |
+| [vaani-clinical](https://github.com/ZephyrusZorro/vaani-clinical) | Vaani Clinical (वाणी) — Real-Time Clinical Voice Receptionist, Telephony Triage Agent &amp; Automated FHIR SOAP Scribe | `Python` |
 | [vox-ai](https://github.com/ZephyrusZorro/vox-ai) | Vox AI - AI Voice Receptionist for Clinics. | `TypeScript` |
 | [ZephyrusZorro](https://github.com/ZephyrusZorro/ZephyrusZorro) | Systems Lab profile with animated SVG terminal telemetry &amp; automated CI/CD pipeline. | `Python` |
 </details>
