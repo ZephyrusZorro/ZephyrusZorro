@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Build profile visual assets
-        run: python scripts/build_profile_art.py
+        run: python scripts/build_clean_art.py
       - name: Generate profile
         env:
           GH_TOKEN: ${{ github.token }}

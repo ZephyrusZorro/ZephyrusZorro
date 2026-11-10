@@ -1,103 +1,26 @@
 {
   "username": "ZephyrusZorro",
   "name": "Faris Ruknuddin",
-  "headline": "Systems Architect · Applied AI & Cybersecurity Engineer",
-  "intro": "Final-year B.E. student in Artificial Intelligence and Machine Learning at AITM in Bhatkal (Class of 2027). Founder & Chief System Analyst at Omnimate. I engineer tamper-evident digital forensics, AST-based static code security auditors, resilient computer vision controllers, and local-first data systems.",
-  "security_focus": "I am deeply focused on Cybersecurity—specializing in Application Security (AppSec), Static Analysis (SAST), Digital Forensics, and Cryptographic Audit Trails. I am actively learning and excelling in ethical hacking, offensive/defensive methodologies, vulnerability research, and zero-trust systems architecture.",
+  "headline": "Backend & full-stack software engineer · Applied AI",
   "portfolio_url": "https://zephyruszoro09.vercel.app/",
   "linkedin": "https://www.linkedin.com/in/faris-ruknuddin-3656762b9/",
   "email": "farisruknuddin@gmail.com",
-  "experience": [
-    "**Omnimate · Founder & Chief System Analyst (Mar 2026–present).** Led a 7-person cross-functional engineering team delivering client software; architected the Omnimate Shots screenshot ingestion & search API.",
-    "**Smart India Hackathon 2026 · Team HackHive (SIH26188).** Designed and architected ID-SHIELD, an explainable identity & multi-document forensics platform with cryptographic audit logs.",
-    "**MR Tech Industries · Software Engineering Intern (Aug–Oct 2026).** Developed retail and mall services management systems.",
-    "**Hadi and Taimur AI · AI Intern (Feb–May 2026).** Built data extraction microservices and automated content scheduling pipelines.",
-    "**MyJobGrow · Cloud Infrastructure Intern (Feb–May 2025).** Deployed, monitored, and automated applications across AWS and GCP with CI/CD.",
-    "**Acmegrade · AI/ML Intern (Oct 2024–Jan 2025).** Trained and optimized predictive analytics and classification models."
-  ],
-  "featured": [
-    {
-      "repo": "case-vault",
-      "title": "ID-SHIELD / CaseVault",
-      "badge": "SMART INDIA HACKATHON 2026 · FINALIST",
-      "description": "Multi-document forensics platform detecting cross-record fraud with tamper-evident Merkle audit logs and zero-trust access control.",
-      "stack": "Python · Cryptography · OpenCV · Forensics"
-    },
-    {
-      "repo": "tark-ai",
-      "title": "TarkAI (तर्क)",
-      "badge": "LOCAL-FIRST SAST & CODE AUDITOR",
-      "description": "Intelligent AST static security analyzer, Halstead complexity profiler, and Socratic mentor with 33 passing automated test suites.",
-      "stack": "Python 3.12 · AST · FastAPI · Pydantic v2"
-    },
-    {
-      "repo": "ai-traffic-signal-optimization",
-      "title": "Adaptive Traffic Signals",
-      "badge": "COMPUTER VISION & EV PREEMPTION",
-      "description": "Real-time OpenCV MOG2 background subtraction simulation adjusting green times (8s–35s) with automated emergency vehicle override.",
-      "stack": "Python · OpenCV · NumPy · State Machine"
-    },
-    {
-      "repo": "lablens",
-      "title": "LabLens",
-      "badge": "MULTIMODAL AI & ONNX ASSISTANT",
-      "description": "Hands-free electronics bench mentor: tracks finger pointing at components, cites schematics by voice, with offline Ollama failover.",
-      "stack": "Python · ONNX · Computer Vision · Ollama"
-    },
-    {
-      "repo": "kuber-datacore",
-      "title": "Kuber Data Core (कुबेर)",
-      "badge": "FINANCIAL INTELLIGENCE WORKSTATION",
-      "description": "FIBO/EDGAR-aligned local research workstation with async crawlers, DOM pruner, relationship graphs, and repeatable pipelines.",
-      "stack": "Python · FastAPI · HTTPX · Graph Snapshots"
-    },
-    {
-      "repo": "market-cortex",
-      "title": "Market Cortex",
-      "badge": "QUANTITATIVE RESEARCH PLATFORM",
-      "description": "Local-first point-in-time market research engine using PostgreSQL metadata, immutable Parquet manifests, and DuckDB OLAP queries.",
-      "stack": "Python · PostgreSQL · Parquet · DuckDB"
-    },
-    {
-      "repo": "cueproof",
-      "title": "Cueproof 2.0",
-      "badge": "LIVE PRODUCTION APP",
-      "description": "Private-by-design browser caption revision review desk for SRT/WebVTT with timecoded feedback.",
-      "stack": "TypeScript · IndexedDB · Vite",
-      "demo": "https://zephyruszorro.github.io/cueproof/"
-    },
-    {
-      "repo": "shelfday",
-      "title": "Shelfday",
-      "badge": "LOCAL-FIRST WORKBENCH",
-      "description": "Daily kitchen inventory and batch prep with shortage rollback and retry-safe writes.",
-      "stack": "TypeScript · React · Cloudflare D1",
-      "demo": "https://shelfday-kitchen.roaneasel4.chatgpt.site"
-    }
-  ],
-  "external_projects": [
-    {
-      "name": "LeakageGuard",
-      "category": "Final-Year B.E. Capstone Project",
-      "description": "Pipeline integrity and security auditor: detects preprocessing leakage, train-test contamination, group overlap, and temporal target leakage in ML data workflows."
-    }
-  ],
   "repository_notes": {
-    "case-vault": "ID-SHIELD: Multi-document forensics platform, encrypted evidence vaults, and tamper-evident Merkle audit logs.",
-    "tark-ai": "Local-first AST static security analyzer, Halstead complexity profiler, and Socratic code mentor.",
-    "ai-traffic-signal-optimization": "Real-time OpenCV video simulation for adaptive queue density scheduling & emergency vehicle override.",
-    "kuber-datacore": "FIBO-aligned local financial workstation, DOM pruner, and repeatable graph pipelines.",
-    "market-cortex": "Local-first point-in-time quantitative research platform using Parquet and DuckDB.",
-    "lablens": "Hands-free AI electronics mentor with ONNX component detection and offline Ollama failover.",
-    "cueproof": "Private-by-design browser caption revision desk for SRT and WebVTT (Live on GitHub Pages).",
-    "shelfday": "Café prep and inventory workbench with shortage rollback and retry-safe writes.",
-    "mendroom": "Local repair-event workbench: skill-aware queues, volunteer matching, and portable backups.",
-    "Omnimate-Shots": "Screenshot metadata ingestion router and HTTP search API for Omnimate.",
-    "health-docker": "Hospital Management System multi-container stack with Laravel, Next.js, and Docker Compose.",
-    "vox-ai": "AI Voice Receptionist prototype for outpatient clinics.",
-    "vaani-clinical": "Educational clinical intake simulation and FHIR R4 documentation engine.",
-    "nephroguard": "Renal review and clinical handoff workspace with FHIR R4 export and SQLite.",
-    "project-mrindustries": "OpenCV and Flask virtual try-on POC from retail internship assessment.",
-    "ZephyrusZorro": "Systems Lab personal profile with animated SVG telemetry and CI/CD pipelines."
+    "ai-traffic-signal-optimization": "OpenCV video simulation for adaptive signal timing and emergency vehicle priority.",
+    "shelfday": "Kitchen stock and prep with expiry-aware allocation, shortage rollback and retry-safe writes.",
+    "cueproof": "Private-by-design caption revision review for SRT and WebVTT tracks.",
+    "kuber-datacore": "Local document ingestion with bounded HTTP requests, graph snapshots and a repeatable benchmark.",
+    "case-vault": "Case document management; encrypted records, access control, and audit logs.",
+    "market-cortex": "Local-first, point-in-time market data, analytics, and evidence-grounded research.",
+    "mendroom": "Local repair-event intake, volunteer matching and transactional backup restore.",
+    "tark-ai": "Local-first intelligent code auditor, AST semantic analyzer and Socratic tutor.",
+    "lablens": "Electronics lab assistant with component detection and page-cited retrieval.",
+    "Omnimate-Shots": "Screenshot metadata ingestion and search API for Omnimate.",
+    "health-docker": "Hospital Management System stack with Laravel backend, Next.js frontend, and Docker Compose.",
+    "vox-ai": "Vox AI - AI Voice Receptionist for Clinics.",
+    "vaani-clinical": "Educational clinical intake and FHIR R4 documentation simulation.",
+    "nephroguard": "Renal review and clinical handoff training workspace with FHIR R4 export and SQLite.",
+    "project-mrindustries": "Flask and OpenCV virtual try-on proof of concept from an internship assessment.",
+    "ZephyrusZorro": "Systems Lab profile with animated SVG terminal telemetry & automated CI/CD pipeline."
   }
 }
