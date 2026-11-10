@@ -7,6 +7,7 @@ on:
     paths:
       - profile.json
       - generate.py
+      - scripts/**
       - .github/workflows/refresh-profile.yml
 permissions:
   contents: write
@@ -21,6 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Build profile visual assets
+        run: python scripts/build_profile_art.py
       - name: Generate profile
         env:
           GH_TOKEN: ${{ github.token }}
@@ -29,8 +32,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md
+          git add README.md assets/
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh profile repository index"
+            git commit -m "Refresh profile repository index and visual assets"
             git push
           fi

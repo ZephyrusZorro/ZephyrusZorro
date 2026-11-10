@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img">
+<title>Faris Ruknuddin - Systems Architect, Applied AI &amp; Cybersecurity Engineer</title>
+<defs>
+  <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#00f2fe"/>
+    <stop offset="50%" stop-color="#4facfe"/>
+    <stop offset="100%" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <linearGradient id="shield-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+  </linearGradient>
+  <pattern id="mesh" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#2d3748" opacity="0.6"/>
+  </pattern>
+</defs>
+<style>
+  .trace { stroke-dasharray: 60 400; animation: trace 6s linear infinite; }
+  .pulse { animation: pulse 3s ease-in-out infinite alternate; }
+  .scan { animation: scan 4s ease-in-out infinite; }
+  .blink { animation: blink 2s step-end infinite; }
+  @keyframes trace { to { stroke-dashoffset: -460; } }
+  @keyframes pulse { 0% { opacity: 0.35; } 100% { opacity: 0.85; } }
+  @keyframes scan { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(110px); } }
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<!-- Background Base -->
+<rect width="1000" height="360" rx="16" fill="#0b0f19"/>
+<rect width="1000" height="360" rx="16" fill="url(#mesh)"/>
+
+<!-- Glowing Cyber Border -->
+<rect x="2" y="2" width="996" height="356" rx="14" fill="none" stroke="#1f293d" stroke-width="2"/>
+<path class="trace" d="M 20 2 H 980 A 14 14 0 0 1 998 20 V 340 A 14 14 0 0 1 980 358 H 20 A 14 14 0 0 1 2 340 V 20 A 14 14 0 0 1 20 2" fill="none" stroke="url(#cyber-grad)" stroke-width="2.5"/>
+
+<!-- Terminal Bar Header -->
+<g transform="translate(36, 32)">
+  <circle cx="0" cy="0" r="5" fill="#ef4444"/>
+  <circle cx="16" cy="0" r="5" fill="#f59e0b"/>
+  <circle cx="32" cy="0" r="5" fill="#10b981"/>
+  <text x="56" y="4" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1">faris@systems-lab:~ // SEC_TELEMETRY.v4</text>
+  <rect x="360" y="-7" width="10" height="15" fill="#00f2fe" class="blink"/>
+</g>
+
+<!-- Left: Name & Title Hero -->
+<g transform="translate(36, 85)">
+  <!-- Name -->
+  <text x="0" y="42" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="900" font-size="46" letter-spacing="-1">FARIS RUKNUDDIN</text>
+  
+  <!-- Headline -->
+  <text x="0" y="78" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600" font-size="20" letter-spacing="-0.3">Systems Architect &#183; Applied AI &amp; Cybersecurity Engineer</text>
+  
+  <!-- Subtitle Narrative -->
+  <text x="0" y="112" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">
+    Architecting tamper-evident forensics, AST static security analysis &amp; local-first resilient engines.
+  </text>
+
+  <!-- Capability Badges -->
+  <g transform="translate(0, 142)">
+    <!-- Badge 1: AppSec & Forensics -->
+    <rect x="0" y="0" width="168" height="30" rx="6" fill="#0f172a" stroke="#00f2fe" stroke-width="1.2"/>
+    <circle cx="14" cy="15" r="4" fill="#00f2fe"/>
+    <text x="26" y="19" fill="#e2e8f0" font-family="ui-monospace,Consolas,monospace" font-size="11" font-weight="700">SAST &amp; FORENSICS</text>
+
+    <!-- Badge 2: Defense-in-Depth -->
+    <rect x="178" y="0" width="180" height="30" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.2"/>
+    <circle cx="192" cy="15" r="4" fill="#10b981"/>
+    <text x="204" y="19" fill="#e2e8f0" font-family="ui-monospace,Consolas,monospace" font-size="11" font-weight="700">DEFENSE-IN-DEPTH</text>
+
+    <!-- Badge 3: Computer Vision & Control -->
+    <rect x="368" y="0" width="176" height="30" rx="6" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.2"/>
+    <circle cx="382" cy="15" r="4" fill="#8b5cf6"/>
+    <text x="394" y="19" fill="#e2e8f0" font-family="ui-monospace,Consolas,monospace" font-size="11" font-weight="700">OPENCV &amp; RESILIENCE</text>
+  </g>
+
+  <!-- Credential Telemetry -->
+  <g transform="translate(0, 204)" font-family="ui-monospace,Consolas,monospace" font-size="12" fill="#64748b">
+    <text x="0" y="0">&#9658; Founder @ Omnimate &#183; Smart India Hackathon '26 Finalist &#183; B.E. AI &amp; ML (2027)</text>
+    <text x="0" y="20" fill="#475569">&#9658; 5&#215; Engineering Internships &#183; 16 Production &amp; Systems Repositories</text>
+  </g>
+</g>
+
+<!-- Right: Visual Cybernetic Shield & Telemetry HUD -->
+<g transform="translate(680, 50)">
+  <!-- Outer HUD Ring -->
+  <circle cx="140" cy="130" r="120" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6"/>
+  <circle cx="140" cy="130" r="95" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Rotating Pulse Ring -->
+  <circle cx="140" cy="130" r="95" fill="none" stroke="#00f2fe" stroke-width="2" stroke-dasharray="40 220" class="trace"/>
+
+  <!-- Cyber Shield Silhouette -->
+  <path d="M 140 60 L 205 85 V 135 C 205 180 140 205 140 205 C 140 205 75 180 75 135 V 85 Z" 
+        fill="url(#shield-grad)" stroke="#00f2fe" stroke-width="2" class="pulse"/>
+
+  <!-- Scanning Laser Bar -->
+  <line class="scan" x1="85" y1="85" x2="195" y2="85" stroke="#38ef7d" stroke-width="2" opacity="0.8"/>
+
+  <!-- Shield Core Lock / Node Icon -->
+  <circle cx="140" cy="125" r="16" fill="#0b0f19" stroke="#8b5cf6" stroke-width="2"/>
+  <path d="M 134 125 L 140 131 L 148 119" fill="none" stroke="#00f2fe" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- HUD Status Readouts -->
+  <g font-family="ui-monospace,Consolas,monospace" font-size="10" fill="#94a3b8">
+    <rect x="35" y="222" width="210" height="24" rx="4" fill="#0f172a" stroke="#334155"/>
+    <circle cx="48" cy="234" r="3" fill="#10b981"/>
+    <text x="58" y="238" fill="#10b981" font-weight="700">INTEGRITY: MERKLE_VERIFIED</text>
+    
+    <text x="140" y="260" text-anchor="middle" fill="#475569" font-size="9">SHA-256: 7F9E...D412 // ZERO TRUST</text>
+  </g>
+</g>
+</svg>
