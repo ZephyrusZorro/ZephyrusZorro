@@ -1,13 +1,11 @@
 """
-Build clean, polished, editorial-grade SVGs matching 7awwad's glacier design language:
-  - assets/identity.svg
-  - assets/portfolio.svg
-  - assets/linkedin.svg
-  - assets/email.svg
-  - assets/intersection.svg
-  - assets/project-reel.svg
-  - assets/session.svg
+Build clean, polished, editorial-grade glacier SVGs for Faris Ruknuddin (@ZephyrusZorro).
+Highlights: Full-Stack, Backend, and AI/ML.
+Featured Build: Shelfday.
+Selected Projects: Cueproof, TarkAI, Vaani Clinical, NephroGuard.
+Embeds Faris's uploaded studio photo into identity.svg.
 """
+import base64
 import os
 from pathlib import Path
 
@@ -22,19 +20,19 @@ def write_svg(filename, content):
     print(f"Generated {dest.relative_to(ROOT)} ({len(content)} bytes)")
 
 
+def get_photo_b64():
+    photo_path = ROOT / "faris-profile.jpg"
+    if photo_path.exists():
+        with open(photo_path, "rb") as f:
+            return base64.b64encode(f.read()).decode("ascii")
+    return ""
+
+
 def generate_identity():
-    # Read the ASCII portrait from faris-ascii.svg if available
-    ascii_svg_path = ROOT / "faris-ascii.svg"
-    ascii_body = ""
-    if ascii_svg_path.exists():
-        raw = ascii_svg_path.read_text(encoding="utf-8")
-        start = raw.find("<rect width=")
-        end = raw.rfind("</svg>")
-        if start != -1 and end != -1:
-            ascii_body = raw[start:end]
+    b64 = get_photo_b64()
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 364" role="img">
-<title>Faris Ruknuddin - ZephyrusZorro</title>
+<title>Faris Ruknuddin - Full-Stack &amp; Backend Software Engineer · Applied AI</title>
 <defs>
   <linearGradient id="metal" x2="1" y2="1" gradientUnits="objectBoundingBox">
     <stop stop-color="#e7fbff"/>
@@ -46,8 +44,8 @@ def generate_identity():
   <pattern id="mesh" width="16" height="16" patternUnits="userSpaceOnUse">
     <circle cx="2" cy="2" r=".9" fill="#495076"/>
   </pattern>
-  <clipPath id="terminal-clip">
-    <rect x="0" y="0" width="840" height="880" rx="12"/>
+  <clipPath id="avatar-clip">
+    <circle cx="805" cy="182" r="128"/>
   </clipPath>
 </defs>
 <style>
@@ -67,7 +65,7 @@ def generate_identity():
 <!-- Top & Bottom Monospace Tags -->
 <g font-family="monospace" font-size="16" fill="#afcdff">
   <text x="32" y="33">@ZephyrusZorro</text>
-  <text x="32" y="335">SYSTEMS ENGINEERING  /  APPLIED AI  /  ASPIRING IN CYBERSECURITY</text>
+  <text x="32" y="335">FULL-STACK  /  BACKEND SYSTEMS  /  APPLIED AI</text>
 </g>
 
 <!-- Main Name & Title -->
@@ -77,19 +75,23 @@ def generate_identity():
 
 <!-- Editorial Subtitle & Persona -->
 <g font-family="Arial,sans-serif" font-size="18" fill="#c4c7dc">
-  <text x="32" y="160">Backend &amp; full-stack software engineer · Aspiring Cybersecurity Engineer</text>
+  <text x="32" y="160">Full-Stack &amp; Backend Software Engineer · Applied AI</text>
   <text x="32" y="194" fill="#9ba1c2" font-size="15" font-family="monospace">From the interface to the system behind it.</text>
 </g>
 
 <!-- Metadata Bar -->
 <g font-family="monospace" font-size="14" fill="#a6e7ff">
-  <text x="32" y="248">Bhatkal, India  ·  AITM (2027)  ·  Founder @ Omnimate</text>
+  <text x="32" y="248">Bhatkal, India  ·  AITM (2027)  ·  Omnimate</text>
   <text x="32" y="272" fill="#8d94be">Portfolio: zephyruszoro09.vercel.app</text>
 </g>
 
-<!-- Right Side: Mini Terminal Portrait -->
-<g transform="translate(640, 24) scale(0.36)" clip-path="url(#terminal-clip)">
-  {ascii_body}
+<!-- Right Side: Circular Studio Portrait -->
+<g>
+  <!-- Glacier Outer Ring -->
+  <circle cx="805" cy="182" r="134" fill="none" stroke="#50527d" stroke-width="2"/>
+  <circle cx="805" cy="182" r="134" fill="none" stroke="#9edcff" stroke-width="2.5" stroke-dasharray="80 200" class="trace"/>
+  <!-- User Studio Portrait -->
+  <image href="data:image/jpeg;base64,{b64}" x="677" y="54" width="256" height="256" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice"/>
 </g>
 </svg>"""
 
@@ -106,50 +108,103 @@ def generate_email():
     return """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 116"><title>Email Faris Ruknuddin</title><style>.route{animation:go 3s linear infinite}@keyframes go{to{stroke-dashoffset:-52}}.arrow{animation:arrow 3.5s ease-in-out infinite}@keyframes arrow{50%{transform:translate(4px,-4px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><path fill="#beaaff" d="M0 0h466l24 24v92H22L0 94Z"/><path d="M103 0v116M425 0v116" stroke="#191a35" opacity=".3" stroke-dasharray="3 4"/><g fill="#191a35"><path d="M22 37h56v42H22zm5 5 23 18 23-18H27zm47 5L50 66 26 47v27h48z" fill-rule="evenodd"/></g><g font-family="Arial,sans-serif" fill="#191a35"><text x="121" y="39" font-family="monospace" font-size="14" letter-spacing="1.4">DIRECT MESSAGE</text><text x="119" y="81" font-family="Georgia,serif" font-style="italic" font-weight="bold" font-size="36" letter-spacing="-1">Email Faris</text></g><path d="M120 96h275" stroke="#191a35" opacity=".15"/><path class="route" d="M120 96h275" stroke="#191a35" stroke-width="2" stroke-dasharray="6 46"/><path class="arrow" d="M443 69l22-22m-18 0h18v18" fill="none" stroke="#191a35" stroke-width="3"/></svg>"""
 
 
-def generate_intersection():
-    return """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 316" role="img"><title>Adaptive Traffic Signals – illustrated queue release</title><defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#5a6080"/></pattern><clipPath id="frame"><rect x="510" y="0" width="490" height="316"/></clipPath></defs><style>.flow{animation:release 8s linear infinite}.lamp{animation:go 8s step-end infinite}.scan{animation:read 8s ease-in-out infinite}@keyframes release{0%{transform:translateX(-42px);opacity:0}12%{opacity:1}28%,55%{transform:translateX(0);opacity:1}91%,100%{transform:translateX(350px);opacity:0}}@keyframes go{0%,98%{fill:#ed9aca}55%{fill:#a1f0db}}@keyframes read{0%,54%,100%{opacity:.9}65%,90%{opacity:.18}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><rect width="1000" height="316" rx="12" fill="#191a31"/><rect x="510" width="490" height="316" fill="url(#grid)"/><g clip-path="url(#frame)"><g transform="rotate(-14 765 155)"><path d="M444 157H1060M765 -95V385" fill="none" stroke="#525779" stroke-width="86"/><path d="M444 157H1060M765 -95V385" fill="none" stroke="#292c46" stroke-width="82"/><path d="M444 157h279m86 0h251M765 -95v210m0 85v185" fill="none" stroke="#7982a0" stroke-width="2" stroke-dasharray="13 11"/><path d="M711 161v34m108-74v33" stroke="#d0cbe7" stroke-width="4"/><g class="flow"><g transform="translate(669 171)"><rect width="28" height="14" rx="4" fill="#bbaeff"/><rect x="17" y="2" width="6" height="10" rx="1" fill="#343854"/><path d="M2 3v8m24-8v8" stroke="#eef5ff" stroke-width="1"/></g><g transform="translate(626 171)"><rect width="28" height="14" rx="4" fill="#c8eaff"/><rect x="17" y="2" width="6" height="10" rx="1" fill="#343854"/><path d="M2 3v8m24-8v8" stroke="#eef5ff" stroke-width="1"/></g><g transform="translate(583 171)"><rect width="28" height="14" rx="4" fill="#a2b0dc"/><rect x="17" y="2" width="6" height="10" rx="1" fill="#343854"/><path d="M2 3v8m24-8v8" stroke="#eef5ff" stroke-width="1"/></g></g><g transform="translate(838 132)"><rect width="28" height="14" rx="4" fill="#c8c2e2"/><rect x="5" y="2" width="6" height="10" rx="1" fill="#343854"/><path d="M2 3v8m24-8v8" stroke="#eef5ff" stroke-width="1"/></g><g transform="translate(883 132)"><rect width="28" height="14" rx="4" fill="#a5b9d7"/><rect x="5" y="2" width="6" height="10" rx="1" fill="#343854"/><path d="M2 3v8m24-8v8" stroke="#eef5ff" stroke-width="1"/></g><rect class="scan" x="574" y="163" width="131" height="30" rx="4" stroke="#a8a4ee" stroke-dasharray="5 3" fill="none"/><circle cx="714" cy="209" r="7" class="lamp" fill="#ed9aca"/></g></g><path d="M507 24v268" stroke="#515371"/><g font-family="monospace" font-size="16" fill="#b4e5ff"><text x="33" y="42">OPENCV   /   TRAFFIC CONTROL</text></g><g font-family="Georgia,serif" font-style="italic" fill="#f3f1ff" font-size="58"><text x="30" y="133">Adaptive</text><text x="30" y="197">traffic signals</text></g><text x="34" y="266" fill="#c4c7dc" font-size="19" font-family="Arial,sans-serif">Vehicle queues set the green time.</text></svg>"""
+def generate_shelfday_hero():
+    return """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 316" role="img">
+<title>Shelfday - Kitchen Prep, Perishable Stock &amp; Closing Workbench</title>
+<defs>
+  <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r=".8" fill="#5a6080"/>
+  </pattern>
+  <clipPath id="frame">
+    <rect x="510" y="0" width="490" height="316"/>
+  </clipPath>
+</defs>
+<style>
+  .batch-pulse { animation: pulse 6s ease-in-out infinite alternate; }
+  .bar-alloc { animation: alloc 8s ease-in-out infinite; }
+  .tag-flash { animation: flash 4s step-end infinite; }
+  @keyframes pulse { 0% { opacity: 0.7; } 100% { opacity: 1; } }
+  @keyframes alloc { 0%, 20% { width: 30px; } 50%, 80% { width: 220px; } 100% { width: 30px; } }
+  @keyframes flash { 0%, 100% { fill: #a1f0db; } 50% { fill: #c8eaff; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<rect width="1000" height="316" rx="12" fill="#191a31"/>
+<rect x="510" width="490" height="316" fill="url(#grid)"/>
+
+<!-- Left Side: Editorial Typography -->
+<g font-family="monospace" font-size="16" fill="#b4e5ff">
+  <text x="33" y="42">FULL-STACK  /  KITCHEN WORKBENCH</text>
+</g>
+<g font-family="Georgia,serif" font-style="italic" fill="#f3f1ff" font-size="58">
+  <text x="30" y="133">Shelfday</text>
+</g>
+<text x="34" y="185" fill="#c4c7dc" font-size="19" font-family="Arial,sans-serif">
+  Perishable stock, batch expiry &amp; closing reconciliation.
+</text>
+<text x="34" y="225" fill="#8e94be" font-size="14" font-family="monospace">
+  Earliest-expiry-first (FEFO) allocation · Atomic shortage rollback
+</text>
+<text x="34" y="270" fill="#a6e7ff" font-size="14" font-family="monospace">
+  TypeScript · React · Cloudflare D1 · SQLite
+</text>
+
+<path d="M507 24v268" stroke="#515371"/>
+
+<!-- Right Side: Illustrated Batch Workbench Lifecycle -->
+<g clip-path="url(#frame)" transform="translate(535, 30)">
+  <!-- Batch 1 Card -->
+  <g transform="translate(0, 15)">
+    <rect width="440" height="65" rx="8" fill="#222543" stroke="#484d72" stroke-width="1.2"/>
+    <rect x="16" y="16" width="120" height="32" rx="4" fill="#14152a"/>
+    <text x="28" y="37" fill="#a1f0db" font-family="monospace" font-size="13" font-weight="bold" class="tag-flash">LOT #2601 · 24H</text>
+    
+    <text x="150" y="28" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Organic Dairy Prep</text>
+    <rect x="150" y="36" width="260" height="12" rx="3" fill="#14152a"/>
+    <rect class="bar-alloc" x="150" y="36" width="190" height="12" rx="3" fill="#60a5fa"/>
+  </g>
+
+  <!-- Batch 2 Card -->
+  <g transform="translate(0, 95)">
+    <rect width="440" height="65" rx="8" fill="#222543" stroke="#484d72" stroke-width="1.2"/>
+    <rect x="16" y="16" width="120" height="32" rx="4" fill="#14152a"/>
+    <text x="28" y="37" fill="#c8eaff" font-family="monospace" font-size="13">LOT #2602 · 48H</text>
+    
+    <text x="150" y="28" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Cold Press Infusion</text>
+    <rect x="150" y="36" width="260" height="12" rx="3" fill="#14152a"/>
+    <rect x="150" y="36" width="110" height="12" rx="3" fill="#a78bfa"/>
+  </g>
+
+  <!-- Rollback / Reconciliation Tag -->
+  <g transform="translate(0, 175)">
+    <rect width="440" height="50" rx="8" fill="#181a33" stroke="#50527d"/>
+    <circle cx="28" cy="25" r="5" fill="#a1f0db"/>
+    <text x="44" y="30" fill="#a1f0db" font-family="monospace" font-size="12">
+      CLOSING RECONCILED: 0 SHORTAGES · ROLLBACK SAFE
+    </text>
+  </g>
+</g>
+</svg>"""
 
 
 def generate_project_reel():
     return """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 262" role="img">
-<title>Shelfday batch allocation and Cueproof caption review, illustrated</title>
+<title>Cueproof caption desk and TarkAI code practice studio, illustrated</title>
 <style>
-  .bar-pulse { animation: bar 4s ease-in-out infinite alternate; }
   .cue-wave { animation: w 1.2s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
-  @keyframes bar { 0% { width: 85px; } 100% { width: 145px; } }
+  .ast-pulse { animation: a 3s ease-in-out infinite alternate; }
   @keyframes w { to { transform: scaleY(0.2); } }
+  @keyframes a { 0% { opacity: 0.6; } 100% { opacity: 1; } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
 
-<!-- Left Panel: Shelfday Kitchen Operations -->
+<!-- Left Panel: Cueproof Caption Desk -->
 <rect width="496" height="262" fill="#caeaff"/>
-<text x="24" y="33" font-size="15" fill="#343559" font-family="monospace">KITCHEN WORKBENCH  /  INVENTORY</text>
-<text x="22" y="84" font-size="48" fill="#14152a" font-family="Georgia,serif" font-weight="bold" font-style="italic" letter-spacing="-1.2">Shelfday</text>
+<text x="24" y="33" font-size="15" fill="#343559" font-family="monospace">CAPTION DESK  /  TIME-CODED REVIEW</text>
+<text x="22" y="84" font-size="48" fill="#14152a" font-family="Georgia,serif" font-weight="bold" font-style="italic" letter-spacing="-1.2">Cueproof</text>
 
-<!-- Shelfday Batch Visual -->
-<g transform="translate(24, 115)">
-  <rect x="0" y="0" width="130" height="32" rx="6" fill="#14152a"/>
-  <text x="14" y="21" fill="#caeaff" font-family="monospace" font-size="13" font-weight="bold">BATCH #01 · FEFO</text>
-
-  <rect x="145" y="6" width="180" height="20" rx="4" fill="#a8cde5"/>
-  <rect class="bar-pulse" x="145" y="6" width="120" height="20" rx="4" fill="#324068"/>
-
-  <rect x="0" y="44" width="130" height="32" rx="6" fill="#3a4b70"/>
-  <text x="14" y="65" fill="#e8f3fa" font-family="monospace" font-size="13">BATCH #02 · PREP</text>
-
-  <rect x="145" y="50" width="180" height="20" rx="4" fill="#a8cde5"/>
-  <rect x="145" y="50" width="65" height="20" rx="4" fill="#324068"/>
-
-  <text x="0" y="112" font-size="14" fill="#2d3656" font-family="monospace">FEFO ALLOCATION  /  ROLLBACK-SAFE</text>
-</g>
-
-<!-- Right Panel: Cueproof Caption Desk -->
-<rect x="504" width="496" height="262" fill="#b7a8ff"/>
-<text x="529" y="33" font-size="15" fill="#2b2949" font-family="monospace">CAPTION DESK  /  TIME-CODED REVIEW</text>
-<text x="527" y="84" font-size="48" fill="#14152a" font-family="Georgia,serif" font-weight="bold" font-style="italic" letter-spacing="-1.2">Cueproof</text>
-
-<!-- Cueproof Diff Visual -->
-<g transform="translate(528, 120)">
+<g transform="translate(24, 120)">
+  <!-- Audio Waveform -->
   <g stroke="#14152a" stroke-width="2.5">
     <path class="cue-wave" style="animation-delay:0.0s" d="M0 -10v20"/>
     <path class="cue-wave" style="animation-delay:-0.1s" d="M8 -16v32"/>
@@ -159,15 +214,46 @@ def generate_project_reel():
     <path class="cue-wave" style="animation-delay:-0.5s" d="M40 -8v16"/>
   </g>
 
+  <!-- Cue Box -->
   <rect x="65" y="-20" width="220" height="42" rx="6" fill="#14152a"/>
-  <text x="78" y="6" fill="#b7a8ff" font-family="monospace" font-size="13">00:01:24.300 ➔ 28.150</text>
+  <text x="78" y="6" fill="#caeaff" font-family="monospace" font-size="13">00:01:24.300 ➔ 28.150</text>
 
+  <!-- Diff -->
   <g transform="translate(0, 48)">
-    <rect width="285" height="26" rx="4" fill="#393566"/>
+    <rect width="320" height="26" rx="4" fill="#273356"/>
     <text x="12" y="17" fill="#f0edff" font-family="monospace" font-size="12">[+] restored sound cue: [engine revs]</text>
   </g>
 
-  <text x="0" y="107" font-size="14" fill="#302949" font-family="monospace">SRT &amp; WEBVTT  /  IN-BROWSER DIFFS</text>
+  <text x="0" y="105" font-size="13" fill="#303b60" font-family="monospace">IN-BROWSER DIFFS  ·  LIVE DEMO AVAILABLE</text>
+</g>
+
+<!-- Right Panel: TarkAI Practice Studio -->
+<rect x="504" width="496" height="262" fill="#b7a8ff"/>
+<text x="529" y="33" font-size="15" fill="#2b2949" font-family="monospace">PRACTICE STUDIO  /  AST ANALYSIS</text>
+<text x="527" y="84" font-size="48" fill="#14152a" font-family="Georgia,serif" font-weight="bold" font-style="italic" letter-spacing="-1.2">TarkAI (तर्क)</text>
+
+<g transform="translate(528, 115)">
+  <!-- AST Node Tree -->
+  <rect x="0" y="0" width="90" height="26" rx="4" fill="#14152a"/>
+  <text x="16" y="17" fill="#b7a8ff" font-family="monospace" font-size="12">Module</text>
+
+  <path d="M 90 13 H 125 V 0 H 145" stroke="#14152a" stroke-width="2" fill="none"/>
+  <path d="M 125 13 V 30 H 145" stroke="#14152a" stroke-width="2" fill="none"/>
+
+  <rect x="145" y="-12" width="120" height="24" rx="4" fill="#393566"/>
+  <text x="155" y="4" fill="#f0edff" font-family="monospace" font-size="11">FunctionDef</text>
+
+  <rect x="145" y="20" width="120" height="24" rx="4" fill="#393566"/>
+  <text x="155" y="36" fill="#f0edff" font-family="monospace" font-size="11">Subprocess</text>
+
+  <g transform="translate(0, 62)">
+    <rect width="360" height="28" rx="4" fill="#14152a"/>
+    <text x="14" y="18" fill="#e0d9ff" font-family="monospace" font-size="12">
+      HEURISTIC FEEDBACK  ·  LEITNER REVIEW
+    </text>
+  </g>
+
+  <text x="0" y="112" font-size="13" fill="#36304d" font-family="monospace">LOCAL PYTHON STUDIO  ·  33/33 TESTS</text>
 </g>
 </svg>"""
 
@@ -205,10 +291,10 @@ def main():
     write_svg("portfolio.svg", generate_portfolio())
     write_svg("linkedin.svg", generate_linkedin())
     write_svg("email.svg", generate_email())
-    write_svg("intersection.svg", generate_intersection())
+    write_svg("shelfday-hero.svg", generate_shelfday_hero())
     write_svg("project-reel.svg", generate_project_reel())
     write_svg("session.svg", generate_session())
-    print("All editorial-grade glacier SVGs built successfully.")
+    print("All glacier SVG assets built successfully.")
 
 
 if __name__ == "__main__":
