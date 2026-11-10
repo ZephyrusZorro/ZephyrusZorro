@@ -30,7 +30,7 @@ I’m learning cybersecurity, with an interest in applying it to software engine
 Final-year B.E. project. Checks Python ML workflows and datasets for preprocessing leakage, duplicate records, group overlap and timestamp overlap. Source is private.
 
 <details>
-<summary>15 public repositories</summary>
+<summary>16 public repositories</summary>
 
 | Repository | Description | Language |
 | :--- | :--- | :--- |
@@ -42,6 +42,7 @@ Final-year B.E. project. Checks Python ML workflows and datasets for preprocessi
 | [lablens](https://github.com/ZephyrusZorro/lablens) | Electronics lab assistant with component detection and page-cited retrieval. | Python |
 | [market-cortex](https://github.com/ZephyrusZorro/market-cortex) | Local-first, point-in-time market data, analytics, and evidence-grounded research. | Python |
 | [mendroom](https://github.com/ZephyrusZorro/mendroom) | A local-first repair café workbench: skill-aware queues, volunteer matching, repair records, and portable backups. | TypeScript |
+| [nephroguard](https://github.com/ZephyrusZorro/nephroguard) | Renal review and clinical handoff training workspace with FHIR R4 export and SQLite. | Python |
 | [Omnimate-Shots](https://github.com/ZephyrusZorro/Omnimate-Shots) | Screenshot metadata ingestion and search API. | TypeScript |
 | [project-mrindustries](https://github.com/ZephyrusZorro/project-mrindustries) | Flask and OpenCV virtual try-on proof of concept from an internship assessment. | Python |
 | [shelfday](https://github.com/ZephyrusZorro/shelfday) | A daily kitchen workbench: batch expiry, ingredient-aware prep, sales and waste reconciliation, and portable backups. | TypeScript |
