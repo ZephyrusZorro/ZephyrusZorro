@@ -28,7 +28,6 @@ def generate_identity():
     ascii_body = ""
     if ascii_svg_path.exists():
         raw = ascii_svg_path.read_text(encoding="utf-8")
-        # Extract inner contents
         start = raw.find("<rect width=")
         end = raw.rfind("</svg>")
         if start != -1 and end != -1:
@@ -68,7 +67,7 @@ def generate_identity():
 <!-- Top & Bottom Monospace Tags -->
 <g font-family="monospace" font-size="16" fill="#afcdff">
   <text x="32" y="33">@ZephyrusZorro</text>
-  <text x="32" y="335">SYSTEMS ENGINEERING  /  APPLIED AI  /  CYBERSECURITY</text>
+  <text x="32" y="335">SYSTEMS ENGINEERING  /  APPLIED AI  /  ASPIRING IN CYBERSECURITY</text>
 </g>
 
 <!-- Main Name & Title -->
@@ -78,7 +77,7 @@ def generate_identity():
 
 <!-- Editorial Subtitle & Persona -->
 <g font-family="Arial,sans-serif" font-size="18" fill="#c4c7dc">
-  <text x="32" y="160">Backend &amp; full-stack software engineer · Applied AI</text>
+  <text x="32" y="160">Backend &amp; full-stack software engineer · Aspiring Cybersecurity Engineer</text>
   <text x="32" y="194" fill="#9ba1c2" font-size="15" font-family="monospace">From the interface to the system behind it.</text>
 </g>
 
@@ -129,15 +128,12 @@ def generate_project_reel():
 
 <!-- Shelfday Batch Visual -->
 <g transform="translate(24, 115)">
-  <!-- Batch 1 Pill -->
   <rect x="0" y="0" width="130" height="32" rx="6" fill="#14152a"/>
   <text x="14" y="21" fill="#caeaff" font-family="monospace" font-size="13" font-weight="bold">BATCH #01 · FEFO</text>
 
-  <!-- Allocation Progress Bar -->
   <rect x="145" y="6" width="180" height="20" rx="4" fill="#a8cde5"/>
   <rect class="bar-pulse" x="145" y="6" width="120" height="20" rx="4" fill="#324068"/>
 
-  <!-- Batch 2 Pill -->
   <rect x="0" y="44" width="130" height="32" rx="6" fill="#3a4b70"/>
   <text x="14" y="65" fill="#e8f3fa" font-family="monospace" font-size="13">BATCH #02 · PREP</text>
 
@@ -154,7 +150,6 @@ def generate_project_reel():
 
 <!-- Cueproof Diff Visual -->
 <g transform="translate(528, 120)">
-  <!-- Audio Waveform -->
   <g stroke="#14152a" stroke-width="2.5">
     <path class="cue-wave" style="animation-delay:0.0s" d="M0 -10v20"/>
     <path class="cue-wave" style="animation-delay:-0.1s" d="M8 -16v32"/>
@@ -164,11 +159,9 @@ def generate_project_reel():
     <path class="cue-wave" style="animation-delay:-0.5s" d="M40 -8v16"/>
   </g>
 
-  <!-- Timestamp Cue Box -->
   <rect x="65" y="-20" width="220" height="42" rx="6" fill="#14152a"/>
   <text x="78" y="6" fill="#b7a8ff" font-family="monospace" font-size="13">00:01:24.300 ➔ 28.150</text>
 
-  <!-- Diff Indicator -->
   <g transform="translate(0, 48)">
     <rect width="285" height="26" rx="4" fill="#393566"/>
     <text x="12" y="17" fill="#f0edff" font-family="monospace" font-size="12">[+] restored sound cue: [engine revs]</text>

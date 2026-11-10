@@ -6,7 +6,7 @@
 
 - 🎓 I'm a final-year **Computer Science (AI & ML)** engineering student at AITM, Bhatkal.
 
-- 🛡️ I'm exploring **cybersecurity**, with a focus on application security, defensive engineering, and understanding how attackers find weaknesses in software. I want to excel in this field by combining offensive curiosity with defensible systems architecture.
+- 🛡️ I'm studying **cybersecurity** and actively aspiring to become a **cybersecurity engineer**. I want to excel in this field—understanding how attackers uncover weaknesses in systems and data flows, learning both offensive techniques and defensive architecture, and building software that protects the data and people relying on it.
 
 - ⚙️ I founded **Omnimate** and led a seven-person team delivering client software. Across five internships in retail software, applied AI, machine learning, and cloud infrastructure, I've focused on what connects the interface to the data moving behind it.
 
@@ -76,7 +76,7 @@ The hardest bug in inventory software isn't adding numbers—it's dealing with p
 
 **LeakageGuard** · My final-year B.E. project. I'm building a static code and dataset auditor that inspects Python ML workflows using Abstract Syntax Trees (AST). It catches preprocessing leakage, train/test duplicate records, and temporal lookahead before models are evaluated on contaminated data.
 
-**Cybersecurity & Threat Monitoring** · I'm exploring offensive and defensive security through hands-on labs (Wireshark packet inspection, Nmap network scanning, and OWASP Top 10 vulnerabilities). Alongside that, I'm prototyping a local dashboard that tracks public ransomware disclosures and distinguishes verified security incidents from unconfirmed extortion claims.
+**Cybersecurity & Threat Monitoring** · Alongside my software engineering coursework, I am actively studying cybersecurity fundamentals—learning network security, vulnerability assessment, and threat detection through hands-on labs. My goal is to excel in the domain and grow into a cybersecurity engineer, bridging deep software understanding with security practices.
 
 ### Tools in practice
 
@@ -136,6 +136,6 @@ The hardest bug in inventory software isn't adding numbers—it's dealing with p
 
 ### Get in touch
 
-I'm a final-year AI & ML student in Bhatkal, interested in internships and graduate roles in software engineering, backend systems, and cybersecurity. If you work on local-first tools, verifiable data workflows, or application security, I'd enjoy hearing how you tackle hard edge cases.
+I'm a final-year AI & ML student in Bhatkal, studying cybersecurity and aspiring to become a cybersecurity engineer. If you work on secure software, local-first tools, or security systems, I'd enjoy hearing how you tackle hard problems.
 
 [Digital Workshop](https://zephyruszoro09.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/faris-ruknuddin-3656762b9/) · [Email](mailto:farisruknuddin@gmail.com)

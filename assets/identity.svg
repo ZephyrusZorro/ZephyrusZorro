@@ -32,7 +32,7 @@
 <!-- Top & Bottom Monospace Tags -->
 <g font-family="monospace" font-size="16" fill="#afcdff">
   <text x="32" y="33">@ZephyrusZorro</text>
-  <text x="32" y="335">SYSTEMS ENGINEERING  /  APPLIED AI  /  CYBERSECURITY</text>
+  <text x="32" y="335">SYSTEMS ENGINEERING  /  APPLIED AI  /  ASPIRING IN CYBERSECURITY</text>
 </g>
 
 <!-- Main Name & Title -->
@@ -42,7 +42,7 @@
 
 <!-- Editorial Subtitle & Persona -->
 <g font-family="Arial,sans-serif" font-size="18" fill="#c4c7dc">
-  <text x="32" y="160">Backend &amp; full-stack software engineer · Applied AI</text>
+  <text x="32" y="160">Backend &amp; full-stack software engineer · Aspiring Cybersecurity Engineer</text>
   <text x="32" y="194" fill="#9ba1c2" font-size="15" font-family="monospace">From the interface to the system behind it.</text>
 </g>
 
