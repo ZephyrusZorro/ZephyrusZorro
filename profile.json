@@ -1,112 +1,72 @@
 {
   "username": "ZephyrusZorro",
   "name": "Faris Ruknuddin",
-  "tagline": "I turn messy inputs into useful systems.",
-  "headline": "Full-stack software engineer · Applied AI",
-  "intro": "I build web applications and applied AI tools with a focus on data correctness and auditability. I’m in the final year of a B.E. in Artificial Intelligence and Machine Learning at AITM in Bhatkal.",
+  "headline": "Backend & full-stack development · Applied AI",
+  "intro": "I’m a final-year B.E. student in Artificial Intelligence and Machine Learning at AITM in Bhatkal, expecting to graduate in 2027. I build Python and TypeScript applications with a focus on reliable APIs and data workflows.",
   "security_focus": "I’m learning cybersecurity, with an interest in applying it to software engineering.",
-  "portfolio_url": "https://zephyruszoro09.vercel.app/",
+  "portfolio_url": "https://zephyruszoro09.vercel.app/read/",
   "experience": [
     "**Omnimate · Founder & Chief System Analyst (Mar 2026–present).** Led a seven-person team delivering client software and built the Omnimate Shots screenshot search API.",
-    "**MR Tech Industries · Intern (Aug–Oct 2026).** Developed three retail applications and prototyped pose-based virtual try-on.",
+    "**MR Tech Industries · Intern (Aug–Oct 2026).** Developed retail software, including a mall services management system.",
     "**Hadi and Taimur AI · AI Intern (Feb–May 2026).** Built data extraction microservices and automated social content scheduling.",
     "**MyJobGrow · Cloud Computing Intern (Feb–May 2025).** Deployed and monitored applications on AWS and GCP and supported CI/CD.",
     "**Acmegrade · AI/ML Intern (Oct 2024–Jan 2025).** Trained and tuned models for classification and predictive analytics."
   ],
   "email": "farisruknuddin@gmail.com",
-  "linkedin": "https://linkedin.com/in/faris-ruknuddin-3656762b9",
+  "linkedin": "https://www.linkedin.com/in/faris-ruknuddin-3656762b9/",
   "featured": [
     {
-      "repo": "case-vault",
-      "title": "CaseVault",
-      "label": "01 / TRUST",
-      "description": "Encrypted case documents, version history, access controls, and audit records.",
-      "stack": "Python · FastAPI · React",
-      "pipeline": "Document → encrypted evidence → searchable case history"
+      "repo": "shelfday",
+      "title": "Shelfday",
+      "description": "Kitchen stock and prep with expiry-aware allocation, shortage rollback and retry-safe writes.",
+      "stack": "TypeScript · React · Cloudflare D1"
     },
     {
-      "repo": "Omnimate-Shots",
-      "title": "Omnimate Shots",
-      "label": "02 / RETRIEVAL",
-      "description": "Screenshot ingestion, metadata indexing, and a search API.",
-      "stack": "TypeScript · Node.js",
-      "pipeline": "Screenshot → metadata → retrievable context"
+      "repo": "kuber-datacore",
+      "title": "Kuber Data Core",
+      "description": "Local document ingestion with bounded HTTP requests, graph snapshots and a repeatable benchmark.",
+      "stack": "Python · FastAPI · HTTPX"
     },
     {
-      "repo": "project-mrindustries",
-      "title": "Communiti",
-      "label": "03 / VISION",
-      "description": "Pose-based virtual try-on with 2D garment overlays; a proof of concept.",
-      "stack": "Python · OpenCV · Flask",
-      "pipeline": "Photo + garment → pose landmarks → visual preview"
+      "repo": "market-cortex",
+      "title": "Market Cortex",
+      "description": "Point-in-time market research using versioned datasets and reproducible queries.",
+      "stack": "Python · PostgreSQL · Parquet · DuckDB"
     },
     {
-      "repo": "portfolio",
-      "title": "FARIS. Portfolio",
-      "label": "04 / INTERFACE",
-      "description": "A personal portfolio with a component-based interface and project storytelling.",
-      "stack": "Next.js · TypeScript",
-      "pipeline": "Projects → visual stories → conversations"
+      "repo": "mendroom",
+      "title": "Mendroom",
+      "description": "Local repair-event intake, volunteer matching and transactional backup restore.",
+      "stack": "TypeScript · React · Express · SQLite"
+    },
+    {
+      "repo": "cueproof",
+      "title": "Cueproof",
+      "description": "Browser-based caption revision review with timecoded feedback and follow-up rounds.",
+      "stack": "TypeScript · IndexedDB · Vite",
+      "demo": "https://zephyruszorro.github.io/cueproof/"
     }
   ],
   "repository_notes": {
     "case-vault": "Case document management; encrypted records, access control, and audit logs.",
     "Omnimate-Shots": "Screenshot metadata ingestion and search API.",
-    "omnimateScanbox": "Paper-to-PDF repository placeholder; automated scan lifecycle.",
-    "portfolio": "Next.js personal portfolio with component-based interactive storytelling.",
-    "project": "Small HTML/CSS/JavaScript portfolio scaffold.",
-    "project-mrindustries": "Pose-based virtual try-on proof of concept.",
-    "ai-traffic-signal-optimization": "AI-Powered Dynamic Traffic Signal Optimization & Emergency Vehicle Override using OpenCV and Adaptive Queue Density Scheduling.",
+    "omnimateScanbox": "Empty placeholder for a paper-to-PDF workflow.",
+    "project": "Early HTML/CSS/JavaScript portfolio.",
+    "project-mrindustries": "Flask and OpenCV virtual try-on proof of concept from an internship assessment.",
+    "ai-traffic-signal-optimization": "OpenCV video simulation for adaptive signal timing and emergency vehicle priority.",
     "market-cortex": "Local-first, point-in-time market data, analytics, and evidence-grounded research.",
     "health-docker": "Hospital Management System stack with Laravel backend, Next.js frontend, and Docker Compose.",
     "vox-ai": "Vox AI - AI Voice Receptionist for Clinics.",
-    "ZephyrusZorro": "Systems Lab profile with animated SVG terminal telemetry & automated CI/CD pipeline."
+    "ZephyrusZorro": "Systems Lab profile with animated SVG terminal telemetry & automated CI/CD pipeline.",
+    "kuber-datacore": "Local document ingestion, relationship graphs and repeatable analysis pipelines.",
+    "lablens": "Electronics lab assistant with component detection and page-cited retrieval.",
+    "vaani-clinical": "Educational clinical intake and FHIR R4 documentation simulation."
   },
   "external_projects": [
     {
-      "name": "Vox AI",
-      "category": "Voice & automation",
-      "description": "Turns recorded calls into structured notes and follow-up tasks."
-    },
-    {
-      "name": "OmniConnect",
-      "category": "Voice & automation",
-      "description": "An AI receptionist workflow for answering calls, qualifying enquiries, and booking appointments."
-    },
-    {
-      "name": "AI Content & Video Production Engine",
-      "category": "Voice & automation",
-      "description": "Connects script generation, voice synthesis, visuals, and video assembly in one content workflow."
-    },
-    {
-      "name": "Leakage Guard",
-      "category": "Security & infrastructure",
-      "description": "Explores anomaly detection for data leakage in network traffic and ML pipelines."
-    },
-    {
-      "name": "Cloud File Storage System",
-      "category": "Security & infrastructure",
-      "description": "A file-storage application combining authentication, role-based access, and AWS S3 storage."
-    },
-    {
-      "name": "Omnimate Health System",
-      "category": "Applied software",
-      "description": "Healthcare workflows for patient scheduling, health records, and practice administration."
-    },
-    {
-      "name": "AI Traffic Signal Optimization",
-      "category": "Applied software",
-      "description": "Uses computer vision to estimate vehicle density and explore adaptive signal timing."
-    },
-    {
-      "name": "TikTok Analysis Engine",
-      "category": "Applied software",
-      "description": "Explores content trends using engagement data, sentiment analysis, and visual reporting."
-    },
-    {
-      "name": "Carbon Emission Calculator",
-      "category": "Applied software",
-      "description": "Estimates a personal carbon footprint from lifestyle inputs in a full-stack application."
+      "name": "LeakageGuard",
+      "category": "Final-year B.E. project",
+      "description": "Checks Python ML workflows and datasets for preprocessing leakage, duplicate records, group overlap and timestamp overlap. Source is private."
     }
   ]
 }
