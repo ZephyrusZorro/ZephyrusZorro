@@ -125,7 +125,7 @@ The hardest bug in inventory software isn't adding numbers—it's dealing with p
 </details>
 
 <details>
-<summary>16 public repositories</summary>
+<summary>17 public repositories</summary>
 
 | Repository | Description | Language |
 | :--- | :--- | :--- |
@@ -143,6 +143,7 @@ The hardest bug in inventory software isn't adding numbers—it's dealing with p
 | [shelfday](https://github.com/ZephyrusZorro/shelfday) | Kitchen stock and prep with expiry-aware allocation, shortage rollback and retry-safe writes. | TypeScript |
 | [tark-ai](https://github.com/ZephyrusZorro/tark-ai) | Local-first intelligent code auditor, AST semantic analyzer and Socratic tutor. | Python |
 | [vaani-clinical](https://github.com/ZephyrusZorro/vaani-clinical) | Educational clinical intake and FHIR R4 documentation simulation. | Python |
+| [vigil](https://github.com/ZephyrusZorro/vigil) | Local-first unified deadline, compliance, license and contract intelligence platform | TypeScript |
 | [vox-ai](https://github.com/ZephyrusZorro/vox-ai) | Vox AI - AI Voice Receptionist for Clinics. | TypeScript |
 | [ZephyrusZorro](https://github.com/ZephyrusZorro/ZephyrusZorro) | Systems Lab profile with animated SVG terminal telemetry &amp; automated CI/CD pipeline. | Python |
 
