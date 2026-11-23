@@ -125,7 +125,7 @@ The hardest bug in inventory software isn't adding numbers—it's dealing with p
 </details>
 
 <details>
-<summary>17 public repositories</summary>
+<summary>18 public repositories</summary>
 
 | Repository | Description | Language |
 | :--- | :--- | :--- |
@@ -140,6 +140,7 @@ The hardest bug in inventory software isn't adding numbers—it's dealing with p
 | [nephroguard](https://github.com/ZephyrusZorro/nephroguard) | Renal review and clinical handoff training workspace with FHIR R4 export and SQLite. | Python |
 | [Omnimate-Shots](https://github.com/ZephyrusZorro/Omnimate-Shots) | Screenshot metadata ingestion and search API for Omnimate. | TypeScript |
 | [project-mrindustries](https://github.com/ZephyrusZorro/project-mrindustries) | Flask and OpenCV virtual try-on proof of concept from an internship assessment. | Python |
+| [relaydesk](https://github.com/ZephyrusZorro/relaydesk) | RelayDesk 2.0 — Voice-enabled IT support operations workbench orchestrated in n8n with multi-agent Ollama LLMs, durable SQLite worker, and cached hybrid lexical RAG. | JavaScript |
 | [shelfday](https://github.com/ZephyrusZorro/shelfday) | Kitchen stock and prep with expiry-aware allocation, shortage rollback and retry-safe writes. | TypeScript |
 | [tark-ai](https://github.com/ZephyrusZorro/tark-ai) | Local-first intelligent code auditor, AST semantic analyzer and Socratic tutor. | Python |
 | [vaani-clinical](https://github.com/ZephyrusZorro/vaani-clinical) | Educational clinical intake and FHIR R4 documentation simulation. | Python |
