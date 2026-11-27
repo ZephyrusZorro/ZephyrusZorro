@@ -22,61 +22,55 @@
 
 <br>
 
-### Featured build
+### Flagship builds
+
+#### 🛡️ [TraceGuard ↗](https://github.com/ZephyrusZorro/traceguard)
+
+Causal multi-agent failure attribution (**C³-Attributor**), CaMeL-inspired prompt-injection capability firewall, and time-travel counterfactual replay for OpenTelemetry GenAI traces (`Python`, `FastAPI`, `React 19`, `TypeScript`, `MCP`).
+
+#### 🔬 [PARALLAX v2.0 ↗](https://github.com/ZephyrusZorro/parallax)
+
+Neuro-symbolic multimodal causal digital twin & counterfactual resilience engine combining invertible SCMs, FLIR/optical inspection, an 8-agent council, Pearl `do()` simulations, and SHA-256 audit governance (`Python`, `FastAPI`, `React`, `MCP`, `Docker`).
+
+#### 🎙️ [RelayDesk 2.0 ↗](https://github.com/ZephyrusZorro/relaydesk)
+
+Voice-enabled IT support operations workbench orchestrated in n8n with three local Ollama specialist agents, a durable SQLite lease worker, and versioned BM25+RRF hybrid RAG (`Python`, `FastAPI`, `n8n`, `LangChain`, `Ollama`, `Docker`).
+
+#### 📈 [Market Cortex ↗](https://github.com/ZephyrusZorro/market-cortex)
+
+Local-first, point-in-time market data, analytics, and evidence-grounded quantitative research workstation with content-addressed Parquet manifests, DuckDB, PostgreSQL, and Next.js.
+
+#### 🪵 [Offcut Atlas ↗](https://github.com/ZephyrusZorro/offcut-atlas)
+
+Local-first material planning workbench for picture-framing studios turning commissions into verified cut drawings, traceable offcut racks, and two-order lookahead simulations (`Python 3.12`, `SQLite`).
+
+#### 💹 [CRYPTOZ ↗](https://cryptoz-seven.vercel.app) · [Source](https://github.com/ZephyrusZorro/cryptoz)
+
+Crypto market research workstation with live Binance feeds, chart studies, market breadth, and paper trading — deployed live on Vercel.
 
 #### 🍲 [Shelfday](https://github.com/ZephyrusZorro/shelfday)
 
 <a href="https://github.com/ZephyrusZorro/shelfday"><img src="./assets/shelfday-hero.svg" width="100%" alt="Shelfday: illustrated kitchen stock prep and closing reconciliation workbench. Open the project."></a>
 
-**What if a kitchen could track batch expiry before the morning rush?** Small commercial kitchens need to know which ingredient batch to use first and reconcile what happened before closing the day. I built a daily prep and perishable-stock workbench using TypeScript, React, and Cloudflare D1 with SQLite.
+**What if a kitchen could track batch expiry before the morning rush?** Small commercial kitchens need to know which ingredient batch to use first and reconcile what happened before closing the day. I built a daily prep and perishable-stock workbench using TypeScript, React, and Cloudflare D1 with SQLite — featuring earliest-expiry-first (FEFO) batch allocation, atomic shortage rollback, and locked closing summaries.
 
-Shelfday implements earliest-expiry-first (FEFO) allocation across ingredient batches, prep suggestions based on comparable weekdays, and locked closing summaries. The illustration shows the batch lifecycle; the repository includes the full client and database workflows.
+[Explore Shelfday ↗](https://github.com/ZephyrusZorro/shelfday) · [View architecture docs](https://github.com/ZephyrusZorro/shelfday#readme)
 
-[Explore the project ↗](https://github.com/ZephyrusZorro/shelfday) · [View architecture docs](https://github.com/ZephyrusZorro/shelfday#readme)
-
-### Selected projects
+### More selected engineering work
 
 <img src="./assets/project-reel.svg?v=glacier" width="100%" alt="Illustrated project reel: Cueproof caption revision review and TarkAI AST code practice studio.">
 
-#### 🎬 [Cueproof ↗](https://zephyruszorro.github.io/cueproof/)
+#### 🎬 [Cueproof ↗](https://zephyruszorro.github.io/cueproof/) · [Source](https://github.com/ZephyrusZorro/cueproof)
 
-Caption revisions are frustrating to review when wording changes, timing drifts, and reviewer notes live in separate documents. I built a browser-based caption revision desk to compare reference and revision subtitle tracks.
+Private-by-design browser caption revision desk for comparing SRT and WebVTT tracks against synchronized video with IndexedDB storage, follow-up rounds, and portable JSON backups.
 
-**Inside Cueproof** · The parser, text comparisons, and audio-video playback run entirely in the browser using IndexedDB. Reviewers see cue-level text additions and removals alongside synchronized video, with follow-up rounds and portable JSON backups. [Try the live demo ↗](https://zephyruszorro.github.io/cueproof/)
+#### 🛡️ [Vigil ↗](https://github.com/ZephyrusZorro/vigil)
+
+Local-first unified deadline, compliance, license, and contract intelligence platform with a deterministic 0–100 risk engine, alert thresholds, and native Node.js SQLite WAL storage (`TypeScript`, `React`, `Express`, `SQLite`).
 
 #### 🧠 [TarkAI (तर्क) ↗](https://github.com/ZephyrusZorro/tark-ai)
 
-A local Python practice studio with syntax tree feedback, test execution, and spaced review for engineers.
-
-**Inside TarkAI** · Instead of running untrusted code blindly, TarkAI inspects the Python 3.12 Abstract Syntax Tree (AST) to provide structural feedback and heuristic complexity estimates. Timed subprocess runs evaluate solutions against test suites, paired with Leitner spaced review intervals. [Explore the studio ↗](https://github.com/ZephyrusZorro/tark-ai)
-
-#### 🏥 [Vaani Clinical](https://github.com/ZephyrusZorro/vaani-clinical)
-
-- **Intake simulation** · Guides clinical encounters through a conversational state machine.
-
-- **Structured notes** · Synthesizes typed encounter records into structured SOAP clinical documentation.
-
-- **Standards export** · Transforms clinical notes and vitals into valid FHIR R4 JSON bundles.
-
-<br>
-
-#### 🩺 [NephroGuard](https://github.com/ZephyrusZorro/nephroguard)
-
-- **Renal review** · Organizes patient lab trends, encounter history, and medication timelines.
-
-- **Clinical handoff** · Generates structured handoff summaries for shift transitions.
-
-- **Local storage** · Powered by SQLite persistence with FHIR R4 compatibility.
-
-<br>
-
-#### 📊 [Kuber Data Core](https://github.com/ZephyrusZorro/kuber-datacore)
-
-- **Document extraction** · Resilient async crawler and DOM pruner extracting corporate research data.
-
-- **Relationship graphs** · Snapshots corporate links and valuation metrics aligned with FIBO / SEC EDGAR schemas.
-
-- **Repeatability** · Bounded request pipelines ensure analytical claims trace directly back to source filings.
+Local Python practice studio combining Python 3.12 AST semantic introspection, Halstead complexity metrics, timed subprocess test runs, Socratic mentoring tiers, and Leitner spaced review.
 
 <br>
 
@@ -88,19 +82,19 @@ The hardest bug in inventory software isn't adding numbers—it's dealing with p
 
 ### On my workbench
 
-**LeakageGuard** · My final-year B.E. project. I'm building developer tooling that checks Python ML workflows and datasets for preprocessing leakage, train/test duplicate records, group overlap, and temporal target leakage before models are evaluated on contaminated data.
+**LeakageGuard** · My final-year B.E. project. Developer tooling that checks Python ML workflows and datasets for preprocessing leakage, train/test duplicate records, group overlap, and temporal target leakage before models are evaluated on contaminated data.
 
-**Local-First Workstations** · Exploring local-first developer tooling with SQLite and IndexedDB, while keeping up with security fundamentals (OWASP Top 10, secure API design) through hands-on practice.
+**AI Reliability & Local-First Systems** · Building verifiable agentic systems (causal attribution, prompt-injection capability firewalls, counterfactual replay) alongside local-first tools backed by SQLite, DuckDB, and IndexedDB.
 
 ### Tools in practice
 
 | Area | Where I use it |
 | --- | --- |
-| **Python & FastAPI** | Backend microservices, typed APIs, and data workflows in TarkAI, Vaani Clinical, NephroGuard, and Kuber Data Core. |
-| **TypeScript & React** | Client-side workbenches in Shelfday and Cueproof; managing state transitions, IndexedDB persistence, and media sync. |
-| **Databases & Storage** | SQLite, PostgreSQL, and Cloudflare D1 for local-first persistence, relational integrity, and structured records. |
-| **Applied AI & ML** | AST syntax inspection in LeakageGuard and TarkAI; conversational state machines in clinical simulations. |
-| **Git & CI/CD** | Automated testing with pytest, Docker container setups, and GitHub Actions telemetry automation. |
+| **Python & FastAPI** | Backend APIs, causal/ML engines, and data pipelines across TraceGuard, PARALLAX, RelayDesk, Market Cortex, Offcut Atlas, and TarkAI. |
+| **TypeScript & React** | Interactive workbenches and dashboards in TraceGuard, PARALLAX, Shelfday, Cueproof, Vigil, and CRYPTOZ. |
+| **Databases & Storage** | SQLite (WAL/FTS5), PostgreSQL, DuckDB, Parquet, Cloudflare D1, and IndexedDB for local-first and analytical workloads. |
+| **Applied AI & Security** | Multi-agent orchestration (n8n, Ollama, MCP), OpenTelemetry GenAI tracing, prompt-injection firewalls, AST analysis, and causal SCMs. |
+| **DevOps & Verification** | Automated pytest/Playwright/Vitest suites, Docker Compose, GitHub Actions CI/CD, and Vercel deployments. |
 
 ### A few things I've learned
 
@@ -125,28 +119,33 @@ The hardest bug in inventory software isn't adding numbers—it's dealing with p
 </details>
 
 <details>
-<summary>18 public repositories</summary>
+<summary>23 public repositories</summary>
 
 | Repository | Description | Language |
 | :--- | :--- | :--- |
-| [ai-traffic-signal-optimization](https://github.com/ZephyrusZorro/ai-traffic-signal-optimization) | OpenCV video simulation for adaptive signal timing and emergency vehicle priority. | Python |
-| [case-vault](https://github.com/ZephyrusZorro/case-vault) | Case document management; encrypted records, access control, and audit logs. | Python |
-| [cueproof](https://github.com/ZephyrusZorro/cueproof) | Private-by-design caption revision review for SRT and WebVTT tracks. | TypeScript |
-| [health-docker](https://github.com/ZephyrusZorro/health-docker) | Hospital Management System stack with Laravel backend, Next.js frontend, and Docker Compose. | PHP |
-| [kuber-datacore](https://github.com/ZephyrusZorro/kuber-datacore) | Local document ingestion with bounded HTTP requests, graph snapshots and a repeatable benchmark. | Python |
-| [lablens](https://github.com/ZephyrusZorro/lablens) | Electronics lab assistant with component detection and page-cited retrieval. | Python |
-| [market-cortex](https://github.com/ZephyrusZorro/market-cortex) | Local-first, point-in-time market data, analytics, and evidence-grounded research. | Python |
-| [mendroom](https://github.com/ZephyrusZorro/mendroom) | Local repair-event intake, volunteer matching and transactional backup restore. | TypeScript |
-| [nephroguard](https://github.com/ZephyrusZorro/nephroguard) | Renal review and clinical handoff training workspace with FHIR R4 export and SQLite. | Python |
-| [Omnimate-Shots](https://github.com/ZephyrusZorro/Omnimate-Shots) | Screenshot metadata ingestion and search API for Omnimate. | TypeScript |
-| [project-mrindustries](https://github.com/ZephyrusZorro/project-mrindustries) | Flask and OpenCV virtual try-on proof of concept from an internship assessment. | Python |
-| [relaydesk](https://github.com/ZephyrusZorro/relaydesk) | RelayDesk 2.0 — Voice-enabled IT support operations workbench orchestrated in n8n with multi-agent Ollama LLMs, durable SQLite worker, and cached hybrid lexical RAG. | JavaScript |
-| [shelfday](https://github.com/ZephyrusZorro/shelfday) | Kitchen stock and prep with expiry-aware allocation, shortage rollback and retry-safe writes. | TypeScript |
-| [tark-ai](https://github.com/ZephyrusZorro/tark-ai) | Local-first intelligent code auditor, AST semantic analyzer and Socratic tutor. | Python |
-| [vaani-clinical](https://github.com/ZephyrusZorro/vaani-clinical) | Educational clinical intake and FHIR R4 documentation simulation. | Python |
-| [vigil](https://github.com/ZephyrusZorro/vigil) | Local-first unified deadline, compliance, license and contract intelligence platform | TypeScript |
-| [vox-ai](https://github.com/ZephyrusZorro/vox-ai) | Vox AI - AI Voice Receptionist for Clinics. | TypeScript |
-| [ZephyrusZorro](https://github.com/ZephyrusZorro/ZephyrusZorro) | Systems Lab profile with animated SVG terminal telemetry &amp; automated CI/CD pipeline. | Python |
+| [ai-traffic-signal-optimization](https://github.com/ZephyrusZorro/ai-traffic-signal-optimization) | Real-time OpenCV traffic signal optimizer with adaptive MOG2 queue-density timing and emergency vehicle preemption. | Python |
+| [case-vault](https://github.com/ZephyrusZorro/case-vault) | Case document management with encrypted evidence storage, role-based access controls, version history, and tamper-evident audit logs. | Python |
+| [cryptoz](https://github.com/ZephyrusZorro/cryptoz) | Crypto market research, chart studies, market breadth, and paper trading workstation with live Vercel demo. | JavaScript |
+| [cueproof](https://github.com/ZephyrusZorro/cueproof) | Private-by-design browser caption revision review desk for SRT and WebVTT tracks with live demo. | TypeScript |
+| [health-docker](https://github.com/ZephyrusZorro/health-docker) | Containerized Hospital Management System stack with Laravel 12 API, Next.js 15 frontend, FEFO pharmacy, and Docker Compose. | PHP |
+| [kuber-datacore](https://github.com/ZephyrusZorro/kuber-datacore) | Local financial research workstation with bounded document ingestion, FIBO relationship graphs, and repeatable DAG pipelines. | Python |
+| [lablens](https://github.com/ZephyrusZorro/lablens) | Hands-free electronics lab mentor with ONNX component detection, MediaPipe pointing, and page-cited datasheet retrieval. | Python |
+| [market-cortex](https://github.com/ZephyrusZorro/market-cortex) | Local-first, point-in-time market data, analytics, and evidence-grounded quantitative research workstation. | Python |
+| [mendroom](https://github.com/ZephyrusZorro/mendroom) | Local-first community repair cafe workbench with skill-aware volunteer matching and transactional backup restore. | TypeScript |
+| [nephroguard](https://github.com/ZephyrusZorro/nephroguard) | Zero-dependency local renal review and clinical I-PASS handoff training workspace with FHIR R4 export and SQLite. | Python |
+| [offcut-atlas](https://github.com/ZephyrusZorro/offcut-atlas) | Material planning workbench for framing studios with verified cut lists, traceable offcuts, and two-order lookahead. | Python |
+| [Omnimate-Shots](https://github.com/ZephyrusZorro/Omnimate-Shots) | TypeScript API for screenshot ingestion, JSON metadata indexing, and filtered HTTP search. | TypeScript |
+| [parallax](https://github.com/ZephyrusZorro/parallax) | PARALLAX v2.0 — Neuro-symbolic multimodal causal digital twin &amp; counterfactual resilience engine. | Python |
+| [project](https://github.com/ZephyrusZorro/project) | Archive of my early HTML/CSS/JS portfolio — current 3D studio &amp; engineering portfolio is live at zephyruszoro09.vercel.app. | HTML |
+| [project-mrindustries](https://github.com/ZephyrusZorro/project-mrindustries) | Flask and OpenCV virtual try-on proof of concept built for a multi-community e-commerce internship assessment. | Python |
+| [relaydesk](https://github.com/ZephyrusZorro/relaydesk) | Voice-enabled IT support ops workbench in n8n with multi-agent Ollama LLMs, durable SQLite worker, and cached hybrid RAG. | JavaScript |
+| [shelfday](https://github.com/ZephyrusZorro/shelfday) | Daily kitchen stock and prep workbench with FEFO batch expiry allocation, atomic shortage rollback, and retry-safe writes. | TypeScript |
+| [tark-ai](https://github.com/ZephyrusZorro/tark-ai) | Local-first Python AST code auditor, Halstead complexity analyzer, timed test runner, and Socratic practice studio. | Python |
+| [traceguard](https://github.com/ZephyrusZorro/traceguard) | Causal multi-agent failure attribution (C3-Attributor), CaMeL-inspired prompt-injection firewall, and OTel counterfactual replay. | Python |
+| [vaani-clinical](https://github.com/ZephyrusZorro/vaani-clinical) | Educational clinical intake simulation synthesizing structured SOAP notes and HL7 FHIR R4 bundles. | Python |
+| [vigil](https://github.com/ZephyrusZorro/vigil) | Local-first unified deadline, compliance, license, and contract intelligence platform with automated 0–100 risk prioritization. | TypeScript |
+| [vox-ai](https://github.com/ZephyrusZorro/vox-ai) | Real-time clinic voice receptionist platform with LiveKit audio pipelines, Sarvam/Gemini providers, and FastAPI dashboards. | TypeScript |
+| [ZephyrusZorro](https://github.com/ZephyrusZorro/ZephyrusZorro) | Systems Lab GitHub profile with automated telemetry, contribution heatmap, and repository showcase. | Python |
 
 </details>
 
